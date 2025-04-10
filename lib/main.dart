@@ -6,12 +6,12 @@ void main() {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Color(0xFF123A6D), // Matching nav bar color
+          backgroundColor: Color(0xFF123A6D), 
           title: Text('First Portfolio Exam',
           style:TextStyle(
             color: Colors.white,
           ),),
-          leading: Icon(Icons.home), // Home icon on the left
+          leading: Icon(Icons.home), 
         ),
         body: Column(
           children: [
@@ -40,7 +40,6 @@ void main() {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  // Left Grey Box (TAMK)
                   Container(
                     width: 70,
                     height: 90,
@@ -56,7 +55,6 @@ void main() {
                       ),
                     ),
                   ),
-                  // Center Grey Box (Flutter!)
                   Container(
                     width: 70,
                     height: 160,
@@ -72,7 +70,6 @@ void main() {
                       ),
                     ),
                   ),
-                  // Right Grey Box (THWS)
                   Container(
                     width: 70,
                     height: 90,
